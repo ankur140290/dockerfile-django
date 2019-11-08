@@ -1,0 +1,19 @@
+*.iml
+.idea
+
+venv
+logs
+
+# production
+build
+
+# misc
+.DS_Store
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+.coverage
+htmlcov
+
+**/__pycache__

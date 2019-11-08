@@ -1,0 +1,19 @@
+
+sudo docker image build -t bulletinboard:1.0 .
+
+sudo docker container run --publish 8000:8080 --detach --name bb bulletinboard:1.0
+
+sudo docker ps
+
+sudo docker run -it bulletinboard:1.0 bash  # Run Docker
+
+sudo docker exec -it containerID bash #Go insite docker
+
+sudo docker images
+
+sudo docker system prune
+sudo docker rmi name:tag
+
+
+
+uwsgi --ini docker_configs/mysite_uwsgi.ini

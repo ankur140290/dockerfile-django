@@ -12,8 +12,9 @@ Create Docker from pyhton 3.6.8 and host django 2.2.5 using circus, nginx and ws
 
 ### Running docker
 To create docker image:
-> docker image build -t <dokername>:<tagname> .
+> docker image build -t \<dokername\>:\<tagname\> .
+>
 >eg. sudo docker image build -t bulletinboard:1.0 .
 
 To run docker:
-> sudo docker run <dokername>:<tagname>
+> sudo docker run \<dokername\>:\<tagname\>
